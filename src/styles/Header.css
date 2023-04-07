@@ -1,0 +1,23 @@
+.Kasa-header {
+    padding: 2% 5% 2% 5%;
+}
+
+.Kasa-header a{
+    color: #FF6060;
+    text-decoration: none;
+}
+
+.Kasa-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Kasa-header .link {
+    font-family: MontserratMedium;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 150%;
+    vertical-align: center;
+}
