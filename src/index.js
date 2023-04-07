@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
 import Error from "./pages/Error";
+import Accomodation from "./pages/Accomodation";
 import Header from "./components/Header";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,12 +20,10 @@ root.render(
       <BrowserRouter>
           <Header />
           <Routes>
-            <Route path="/" element={<Home />} >
-            </Route>
-            <Route path="/aboutUs" element={<AboutUs />} >
-            </Route>
-            <Route path="*" element={<Error />} >
-            </Route>
+            <Route path="/" element={<Home />} > </Route>
+            <Route path="/aboutUs" element={<AboutUs />} > </Route>
+            <Route path="/logement/:logementId" element={<Accomodation />} > </Route>
+            <Route path="*" element={<Error />} > </Route>
           </Routes>
       </BrowserRouter>
   </React.StrictMode>
