@@ -1,0 +1,19 @@
+.Kasa-banner {
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.Kasa-banner img {
+    border-radius: 25px;
+    filter : brightness(60%);
+    width: 90%;
+}
+
+.Kasa-banner p {
+    position: absolute;
+    top: 28%;
+    left: 25%;
+    color: white;
+    font-family: MontserratMedium;
+    font-size: 48px;
+}

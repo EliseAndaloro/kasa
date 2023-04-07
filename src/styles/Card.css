@@ -1,0 +1,22 @@
+.card {
+    padding: 7%;
+}
+
+.card img {
+    width: 340px;
+    height: 340px;
+    border-radius: 4%;
+    object-fit: cover;
+}
+
+.card p {
+    position: absolute;
+    margin-left: 2%;
+    margin-right: 20%;
+    margin-top: -3%;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    width: 250px;
+    text-align: left;
+}
