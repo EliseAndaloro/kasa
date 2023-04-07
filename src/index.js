@@ -10,17 +10,19 @@ import {
 } from "react-router-dom";
 import AboutUs from "./pages/AboutUs";
 import Error from "./pages/Error";
+import Header from "./components/Header";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <BrowserRouter>
+          <Header />
           <Routes>
             <Route path="/" element={<Home />} >
             </Route>
             <Route path="/aboutUs" element={<AboutUs />} >
             </Route>
-            <Route path="/error" element={<Error />} >
+            <Route path="*" element={<Error />} >
             </Route>
           </Routes>
       </BrowserRouter>
