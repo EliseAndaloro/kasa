@@ -1,5 +1,5 @@
-import emptystar from "../../assets/emptystar.svg"
-import fullstar from "../../assets/fullstar.svg";
+import emptystar from "../assets/emptystar.svg"
+import fullstar from "../assets/fullstar.svg";
 
 function Rating(props) {
     const getRate = (rate) => {
