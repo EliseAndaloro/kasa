@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { getId } from "../data/services";
 import Tag from "../components/Tag";
+import Rating from "../components/Rating";
 
 function Accomodation() {
     const { logementId } = useParams();
@@ -20,6 +21,9 @@ function Accomodation() {
                 <img src={ logement.host.picture }
                      alt={ logement.host.picture }
                 />
+            </div>
+            <div className="rating">
+                <Rating rating={logement.rating} />
             </div>
         </div>
     );
