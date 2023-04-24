@@ -2,10 +2,16 @@ import { useParams } from "react-router-dom";
 import { getId } from "../data/services";
 import Tag from "../components/Tag";
 import Rating from "../components/Rating";
+import '../styles/Accomodation.css'
+import Error from "./Error";
 
 function Accomodation() {
     const { logementId } = useParams();
     const logement = getId(logementId);
+
+    if (logement === undefined) {
+        return <Error />;
+    }
 
     return (
         <div className="logement">

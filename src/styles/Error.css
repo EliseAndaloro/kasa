@@ -1,0 +1,19 @@
+.error {
+    text-align: center;
+    color: #FF6060;
+}
+.error h1 {
+    font-size: 288px;
+    font-weight: 700;
+    margin: 1%;
+}
+
+.error p {
+    font-size: 2rem;
+    color: #FF6060;
+}
+
+.error a {
+    color:#FF6060 !important;
+    font-size: 1rem;
+}
