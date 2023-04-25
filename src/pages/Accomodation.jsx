@@ -4,6 +4,7 @@ import Tag from "../components/Tag";
 import Rating from "../components/Rating";
 import '../styles/Accomodation.css'
 import Error from "./Error";
+import Carrousel from '../components/Carrousel';
 
 function Accomodation() {
     const { logementId } = useParams();
@@ -15,6 +16,9 @@ function Accomodation() {
 
     return (
         <div className="logement">
+            <div className="carrousel">
+                <Carrousel pictures={logement.pictures} />
+            </div>
             <h2>{ logement.title}</h2>
             <p>{ logement.location }</p>
             <div className="tags">
