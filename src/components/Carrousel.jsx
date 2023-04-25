@@ -10,16 +10,14 @@ function Carrousel({ pictures }) {
     //useState, représente la valeur de base, 0
 
     function btnsuivant() {
-        console.log(index);
         setNewIndexImg(index + 1);
-        console.log(index);
-        if (index >= pictures.length) {
+        if (index >= pictures.length - 1) {
             setNewIndexImg(0);
         }
     }
     function btnprecedent() {
         setNewIndexImg(index - 1);
-        if (index < 0) {
+        if (index <= 0) {
             setNewIndexImg(pictures.length - 1);
         }
     }
