@@ -1,0 +1,25 @@
+.titre-Collapse {
+    width: 100%;
+    height: 47px;
+    background-color: #ff6060;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 18px;
+    border-radius: 5px;
+}
+.titre-Collapse h3 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.titre-Collapse img {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    cursor: pointer;
+}

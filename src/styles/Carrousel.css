@@ -1,3 +1,7 @@
+.carrousel {
+    padding: 2% 5% 2% 5%;
+}
+
 .carrousel-container {
     display: flex;
     justify-content: space-between;

@@ -5,6 +5,7 @@ import Rating from "../components/Rating";
 import '../styles/Accomodation.css'
 import Error from "./Error";
 import Carrousel from '../components/Carrousel';
+import Collapse from "../components/Collapse";
 
 function Accomodation() {
     const { logementId } = useParams();
@@ -34,6 +35,9 @@ function Accomodation() {
             </div>
             <div className="rating">
                 <Rating rating={logement.rating} />
+            </div>
+            <div className="collapse">
+                <Collapse title="Description" text={ logement.description }  />
             </div>
         </div>
     );
