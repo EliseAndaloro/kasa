@@ -1,6 +1,7 @@
 import droite from "../assets/icones/droite.png";
 import gauche from "../assets/icones/gauche.png";
 import { useState } from "react";
+import '../styles/Carrousel.css'
 
 //let index = 0;
 
@@ -24,19 +25,17 @@ function Carrousel({ pictures }) {
 
     function navigation() {
         return (
-            <div className="navigation-photo">
+            <div className="carrousel-container">
                 <img src={gauche} className="precedent" onClick={btnprecedent} alt="" />
 
                 <img src={droite} className="suivant" onClick={btnsuivant} alt="" />
-                <p>
-                    {index + 1}/{pictures.length}
-                </p>
+
             </div>
         );
     }
     return (
         <div
-            className="photo"
+            className="carrousel-content"
             style={{ backgroundImage: `url("${pictures[index]}")` }}
         >
             {pictures.length > 1 ? navigation() : ""}
