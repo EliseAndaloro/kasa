@@ -13,3 +13,12 @@
     padding: 5px;
     border-radius: 30%;
 }
+
+.collapse {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+    margin-top: 2rem;
+}

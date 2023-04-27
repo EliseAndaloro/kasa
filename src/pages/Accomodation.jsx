@@ -37,7 +37,12 @@ function Accomodation() {
                 <Rating rating={logement.rating} />
             </div>
             <div className="collapse">
-                <Collapse title="Description" text={ logement.description }  />
+                <div className="description">
+                    <Collapse title="Description" text={ logement.description }  />
+                </div>
+                <div className="equipement">
+                    <Collapse title="Equipements" text={ logement.equipments }  />
+                </div>
             </div>
         </div>
     );
