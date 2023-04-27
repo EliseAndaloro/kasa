@@ -18,3 +18,7 @@ code {
   url("./fonts/Montserrat/static/Montserrat-Medium.ttf") format("truetype");
   font-weight: bold;
 }
+
+#root {
+  font-family: MontserratMedium;
+}
