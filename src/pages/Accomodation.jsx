@@ -20,21 +20,25 @@ function Accomodation() {
             <div className="carrousel">
                 <Carrousel pictures={logement.pictures} />
             </div>
-            <h2>{ logement.title}</h2>
-            <p>{ logement.location }</p>
-            <div className="tags">
-                { logement.tags.map((tag) => (
-                    <Tag name={tag} key={tag} />
-                )) }
+            <div className="logement-title">
+                <div className="logement-title-text">
+                    <h2>{ logement.title}</h2>
+                    <p>{ logement.location }</p>
+                </div>
+                <div className="host">
+                    <h3>{ logement.host.name }</h3>
+                    <img src={ logement.host.picture } alt={ logement.host.picture } />
+                </div>
             </div>
-            <div className="host">
-                <h3>{ logement.host.name }</h3>
-                <img src={ logement.host.picture }
-                     alt={ logement.host.picture }
-                />
-            </div>
-            <div className="rating">
-                <Rating rating={logement.rating} />
+            <div className="logement-tags-rate-container">
+                <div className="tags">
+                    { logement.tags.map((tag) => (
+                        <Tag name={tag} key={tag} />
+                    )) }
+                </div>
+                <div className="rating">
+                    <Rating rating={logement.rating} />
+                </div>
             </div>
             <div className="collapse">
                 <div className="description">

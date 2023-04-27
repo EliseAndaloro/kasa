@@ -7,7 +7,7 @@ function Collapse({ title, text, extraClass }) {
     const [CollapseStart, setCollapse] = useState(false);
 
     return CollapseStart ? (
-        <div className={extraClass ? "Collapse " + extraClass : "Collapse"}>
+        <div>
             <div className="titre-Collapse">
                 <h3>{title}</h3>
                 <img

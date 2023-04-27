@@ -2,23 +2,83 @@
     color: #FF6060;
 }
 
+.logement-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
+    align-items: center;
+}
+
+.logement-title-text p {
+    margin-top: 0;
+}
+
+.logement-title-text h2 {
+    margin-bottom: 0;
+}
+
+.logement-title img {
+    border-radius: 50%;
+}
+
+.host {
+    display: flex;
+    align-items: center;
+}
+
+.host h3 {
+    margin-right: 1em;
+}
+
+.logement-tags-rate-container {
+    padding: 0 5% 0 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
 .tags {
     display: flex;
 }
 
 .tags p {
-    margin-right: 2%;
+    margin: 0 2% 0 0;
     background-color: #FF6060;
     color: white;
-    padding: 5px;
-    border-radius: 30%;
+    border-radius: 10px;
+    padding: 10px 15px;
+    min-width: 150px;
+    text-align: center;
+
 }
 
 .collapse {
+    padding: 0 7% 0 5%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
-    width: 100%;
-    gap: 2rem;
+    gap: 20%;
     margin-top: 2rem;
+}
+
+.collapse div {
+    width : 100%;
+}
+
+.description p,
+.equipements ul {
+    background-color: #f6f6f6;
+    font-size: 18px;
+    color: #ff6060;
+    height: auto;
+    padding: 30px 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    display: list-item;
+    list-style: none;
+}
+
+.equipements li {
+    font-weight: 400;
+    padding: 2px;
+    margin-left: 20px;
 }
