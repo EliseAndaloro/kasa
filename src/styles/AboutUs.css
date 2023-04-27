@@ -1,0 +1,8 @@
+.AboutUs {
+    padding: 0 5% 0 5%;
+}
+
+.AboutUs .description {
+    width: 50%;
+    text-align: center;
+}
