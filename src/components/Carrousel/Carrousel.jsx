@@ -1,7 +1,7 @@
-import droite from "../assets/icones/droite.png";
-import gauche from "../assets/icones/gauche.png";
+import droite from "../../assets/icones/droite.png";
+import gauche from "../../assets/icones/gauche.png";
 import { useState } from "react";
-import '../styles/Carrousel.css'
+import './Carrousel.css'
 
 //let index = 0;
 

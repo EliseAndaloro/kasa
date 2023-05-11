@@ -1,13 +1,13 @@
-import Banner from "../components/Banner";
-import Collapse from "../components/Collapse";
+import Banner from "../components/Banner/Banner";
+import Collapse from "../components/Collapse/Collapse";
+import Image from "../assets/img_aboutUs_banner.png";
 import '../styles/AboutUs.css'
 
 function AboutUs() {
     return (
         <div className="AboutUs">
             <h1>A propos</h1>
-            //@TODO mettre lien de la photo en props
-            <Banner />
+            <Banner imgSrc={Image} />
             <div className="description">
                 <Collapse title="Fiabilité" text="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."/>
                 <Collapse title="Respect" text="La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."/>

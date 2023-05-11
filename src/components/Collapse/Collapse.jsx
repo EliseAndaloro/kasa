@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import close from "../assets/icones/fermer.png";
-import open from "../assets/icones/ouvert.png";
-import "../styles/Collapse.css";
+import close from "../../assets/icones/fermer.png";
+import open from "../../assets/icones/ouvert.png";
+import "./Collapse.css";
 
 function Collapse({ title, text, extraClass }) {
     const [CollapseStart, setCollapse] = useState(false);

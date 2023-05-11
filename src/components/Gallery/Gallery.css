@@ -1,0 +1,27 @@
+.Kasa-gallery {
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-gap: 10px;*/
+    /*padding: 1% 5% 1% 5%;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 25px;
+    background: #f7f7f7;
+    margin: 3% auto;
+    padding: 3rem 0;
+    width: 90%;
+    gap: 5%;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .Kasa-gallery {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 374px) {
+    .Kasa-gallery {
+        flex-direction: column;
+    }
+}

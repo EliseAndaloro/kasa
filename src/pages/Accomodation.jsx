@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom";
 import { getId } from "../data/services";
-import Tag from "../components/Tag";
-import Rating from "../components/Rating";
+import Tag from "../components/Tag/Tag";
+import Rating from "../components/Rating/Rating";
 import '../styles/Accomodation.css'
 import Error from "./Error";
-import Carrousel from '../components/Carrousel';
-import Collapse from "../components/Collapse";
+import Carrousel from '../components/Carrousel/Carrousel';
+import Collapse from "../components/Collapse/Collapse";
 
 function Accomodation() {
     const { logementId } = useParams();

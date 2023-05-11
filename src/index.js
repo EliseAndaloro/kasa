@@ -12,8 +12,8 @@ import {
 import AboutUs from "./pages/AboutUs";
 import Error from "./pages/Error";
 import Accomodation from "./pages/Accomodation";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

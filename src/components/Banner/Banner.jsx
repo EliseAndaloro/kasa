@@ -1,11 +1,11 @@
-import '../styles/Banner.css'
-import imgBanner from "../assets/IMG_homepage_banner.png";
+import './Banner.css'
 
 function Banner(props) {
     const title = props.title;
+    const imgSrc = props.imgSrc;
     return (
         <div className="Kasa-banner">
-            <img src={imgBanner} alt='Kasa' className='homepage-banner' />
+            <img src={imgSrc} alt='Kasa' className='homepage-banner' />
             <p>{title}</p>
         </div>
     )

@@ -1,7 +1,7 @@
-import Card from "./Card";
-import { getLogements} from "../data/services";
+import Card from "../Card/Card";
+import { getLogements} from "../../data/services";
 import { Link } from "react-router-dom";
-import '../styles/Gallery.css';
+import './Gallery.css';
 
 function Gallery() {
     return (

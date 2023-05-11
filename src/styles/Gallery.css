@@ -1,6 +1,0 @@
-.Kasa-gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    padding: 1% 5% 1% 5%;
-}
