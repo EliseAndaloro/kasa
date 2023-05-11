@@ -3,6 +3,16 @@
 }
 
 .AboutUs .description {
-    width: 50%;
+    width: 70%;
     text-align: center;
+    margin: 2% auto;
 }
+
+.AboutUs .description .Collapse {
+    margin-bottom: 3%;
+}
+
+.AboutUs .description .no-collapse {
+    margin-bottom: 3%;
+}
+

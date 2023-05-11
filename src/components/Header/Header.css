@@ -21,3 +21,30 @@
     font-size: 150%;
     vertical-align: center;
 }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .Kasa-header img {
+        width: 40%;
+    }
+    .Kasa-header .link {
+        width: 100%;
+        font-size: 100%;
+        justify-content: space-evenly;
+    }
+    .Kasa-header nav {
+        margin-bottom: 5%;
+    }
+}
+@media only screen and (max-width: 374px) {
+    .Kasa-header img {
+        width: 40%;
+    }
+    .Kasa-header .link {
+        width: 100%;
+        font-size: 100%;
+        justify-content: space-evenly;
+    }
+    .Kasa-header nav {
+        margin-bottom: 5%;
+    }
+}
