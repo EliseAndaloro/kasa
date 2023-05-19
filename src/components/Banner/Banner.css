@@ -11,9 +11,6 @@
 }
 
 .Kasa-banner img {
-    /*border-radius: 25px;*/
-    /*filter : brightness(60%);*/
-    /*width: 90%;*/
     object-fit: cover;
     border-radius: 25px;
     opacity: 0.7;
@@ -22,12 +19,6 @@
 }
 
 .Kasa-banner p {
-    /*position: absolute;*/
-    /*top: 28%;*/
-    /*left: 25%;*/
-    /*color: white;*/
-    /*font-family: MontserratMedium;*/
-    /*font-size: 48px;*/
     font-size: 48px;
     font-weight: 500;
     position: absolute;

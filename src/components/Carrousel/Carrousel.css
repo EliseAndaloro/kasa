@@ -16,3 +16,20 @@
     background-position: center;
     border-radius: 25px;
 }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .carrousel-content {
+        height: 235px;
+    }
+    .carrousel-container .precedent {
+        width: 5%;
+    }
+    .carrousel-container .suivant {
+        width: 5%;
+    }
+}
+@media only screen and (max-width: 374px) {
+    .carrousel-content {
+        height: 235px;
+    }
+}

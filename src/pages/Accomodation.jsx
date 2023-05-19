@@ -25,10 +25,6 @@ function Accomodation() {
                     <h2>{ logement.title}</h2>
                     <p>{ logement.location }</p>
                 </div>
-                <div className="host">
-                    <h3>{ logement.host.name }</h3>
-                    <img src={ logement.host.picture } alt={ logement.host.picture } />
-                </div>
             </div>
             <div className="logement-tags-rate-container">
                 <div className="tags">
@@ -36,8 +32,14 @@ function Accomodation() {
                         <Tag name={tag} key={tag} />
                     )) }
                 </div>
-                <div className="rating">
+            </div>
+            <div className="rating">
+                <div className="stars">
                     <Rating rating={logement.rating} />
+                </div>
+                <div className="host">
+                    <h3>{ logement.host.name }</h3>
+                    <img src={ logement.host.picture } alt={ logement.host.picture } />
                 </div>
             </div>
             <div className="collapse">
